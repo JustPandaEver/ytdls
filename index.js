@@ -1,1 +1,1 @@
-exports.yt = require('./youtube.js');
+module.exports = require('./youtube.js');
