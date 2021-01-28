@@ -1,14 +1,18 @@
 # YTDL
 ```js
-const panda = require('./index.js')
-panda.ytv('link yt')
+const ytdls = require('ytdls')
+ytdls.ytv('link yt')
 .then(res => console.log(res))
 .catch(err => console.log(err))
 ```
 and
 ```js
-const panda = require('./index.js')
-panda.yta('link yt')
+const ytdls = require('ytdls')
+ytdls.yta('link yt')
 .then(res => console.log(res))
 .catch(err => console.log(err))
+```
+installation
+```js
+npm install ytdls
 ```
