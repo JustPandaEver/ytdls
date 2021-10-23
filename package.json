@@ -1,5 +1,5 @@
 {
-  "name": "ytdl",
+  "name": "ytdls",
   "version": "1.0.3",
   "description": "youtube downloader",
   "main": "index.js",
