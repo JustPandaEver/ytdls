@@ -29,7 +29,7 @@ async function ytv(url) {
                 .then(res => {
                     document = (new JSDOM(res.result)).window.document
                     yaha = document.querySelectorAll('td')
-                    filesize = yaha[yaha.length - 23].innerHTML
+                    filesize = yaha[yaha.length - 14].innerHTML
                     id = /var k__id = "(.*?)"/.exec(document.body.innerHTML) || ['', '']
                     thumb = document.querySelector('img').src
                     title = document.querySelector('b').innerHTML
@@ -70,7 +70,7 @@ async function yta(url) {
                 .then(res => {
                     let document = (new JSDOM(res.result)).window.document
                     let type = document.querySelectorAll('td')
-                    let filesize = type[type.length - 10].innerHTML
+                    let filesize = type[type.length - 5].innerHTML
                     let id = /var k__id = "(.*?)"/.exec(document.body.innerHTML) || ['', '']
                     let thumb = document.querySelector('img').src
                     let title = document.querySelector('b').innerHTML
