@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustPandaEver/ytdl.git"
+    "url": "git+https://github.com/JustPandaEver/ytdls.git"
   },
   "keywords": [
     "youtube",
@@ -22,7 +22,7 @@
   "author": "PandaEver",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JustPandaEver/ytdl/issues"
+    "url": "https://github.com/JustPandaEver/ytdls/issues"
   },
-  "homepage": "https://github.com/JustPandaEver/ytdl#readme"
+  "homepage": "https://github.com/JustPandaEver/ytdls#readme"
 }
