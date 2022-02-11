@@ -1,6 +1,6 @@
 {
   "name": "ytdls",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "youtube downloader",
   "main": "index.js",
   "dependencies": {
