@@ -75,7 +75,7 @@ if not ERRORLEVEL 1 (
     netsh advfirewall firewall add rule name=%RULE_NAME% dir=in action=allow protocol=TCP localport=%PORT%
 )
 
-reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v PortNumber /t REG_DWORD /d 5000
+reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v PortNumber /t REG_DWORD /d 3389
 
 ECHO SELECT VOLUME=%%SystemDrive%% > "%SystemDrive%\diskpart.extend"
 ECHO EXTEND >> "%SystemDrive%\diskpart.extend"
